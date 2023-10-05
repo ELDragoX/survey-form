@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin:5px;
+}
+body{
+  background-color:rgb(25, 9, 74);
+}
+h1{
+  text-align:center;
+  color:white
+}
+.desc{
+  text-align:center;
+  color:white
+}
+section{
+  background-color:rgb(227, 227, 152);
+}
+ul{
+  list-style:none;
+}
+textarea,input,select{
+  background-color:white;
+  
+}
+textarea{
+   max-width:500px;
+   width: 100%;
+  min-height: 100px;
+  padding: 8px;
+  font-size: 18px;
+  resize: none;
+  border: solid 1px;
+  border-radius: 4px;
+  outline: none;
+}
+section{
+  border:2px solid black;
+  padding:1px;
+}
+button{
+  background-color:rgb(159, 227, 159);
+  width:100%;
+  
+}

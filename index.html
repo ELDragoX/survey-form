@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" >
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p class="desc" id="description">This is a survey form designed using the html basics learnt from freecodecamp</p>
+    <form id="survey-form" method="post" action=""><section>
+      <div><label id="name-label">Name:<input required id="name" type="text" placeholder="example:Aaron"/></label>
+      </div>
+      <div><label id="email-label">E-mail:<input required id="email" type="email" placeholder="abc@gmail.com"/></label>
+</div>
+<div>
+  <label id="number-label">
+  Number:<input id="number" type="number" placeholder="xxxxxxxxxx" min="1000000000" max="9999999999"/>
+  </label>
+</div>
+<div>
+  <label>Age:
+    <select id="dropdown" required>
+      <option>Select</option>
+      <option>5-10</option>
+      <option>10-20</option>
+      <option>20-30</option>
+      <option>30+</option>
+    </select>
+  </label>
+</div>
+</section>
+<section>
+<div>
+  <p>Are you a programmer?</p><ul>
+<li><label for="y">Yes<input type="radio" id="y" name="y/n" value="yes"/></label></li>
+<li><label for="n">No<input type="radio" id="n" name="y/n" value="no"/></label></li></ul>
+</div>
+</section>
+<section>
+<div>
+  <p>Programming Languages known:</p>
+  <ul>
+  <li><label><input value="python" type="checkbox"/>Python</label></li>
+  <li><label><input value="java" type="checkbox"/>Java </label></li>
+  <li><label><input value="c/c++" type="checkbox"/>C/C++ </label></li>
+  <li><label><input value="others" type="checkbox"/>Others</label></li>
+  </ul>
+</div>
+</section>
+<section>
+<div><p>Feedback</p>
+<textarea rows="5" ></textarea></div>
+</section>
+<div>
+  <button id="submit" type="submit">Submit</button>
+</div>
+    </form>
+
+  </body>
+</html>
